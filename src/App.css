@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+}
+
+.card {
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content span {
+  color: hsl(150, 100%, 66%);
+}
+
+.content h2 {
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+}
+
+.icon1 {
+  margin-bottom: 50px;
+}
+
+.dice-container {
+  position: absolute;
+  bottom: -30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+}
+
+.dice-container:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
